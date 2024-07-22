@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crater & Boulder Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Explore the Moon Like Never Before</h1>
+        <p>Start detecting craters and boulders on the lunar surface with advanced object detection and high precision analysis.</p>
+        <button>Get Started</button>
+    </header>
+    
+    <section class="features">
+        <div class="feature">
+            <img src="b1.png" alt="Feature 1">
+            <p>Advanced Object Detection</p>
+        </div>
+        <div class="feature">
+            <img src="b2.png" alt="Feature 2">
+            <p>High Precision Analysis</p>
+        </div>
+        <div class="feature">
+            <img src="b3.png" alt="Feature 2">
+            <p>Enhanced Security</p>
+        </div>
+        <div class="feature">
+            <img src="b4.png" alt="Feature 3">
+            <p>Real-time Data Processing</p>
+        </div>
+    </section>
+    
+    <section class="detection">
+        <h2>Start Detecting Craters and Boulders on the Moon</h2>
+        <p>Select an image file and a CSV file containing the coordinates to get started.</p>
+        <div class="form-group">
+            <label for="fileInput">Select File:</label>
+            <input type="file" id="fileInput" accept=".jpg">
+        </div>
+        
+        <div class="form-group">
+            <label for="csvInput">Upload CSV:</label>
+            <input type="file" id="csvInput" accept=".csv">
+        </div>
+        
+        <div class="form-group">
+            <button id="processButton">Process Image</button>
+        </div>
+        
+        <div class="image-container" id="imageContainer">
+            <!-- Image will be displayed here -->
+        </div>
+        
+        <div class="options">
+            <div class="option">
+                <label>Option 1: Select Any Two craters OR Boulders to get Distance</label>
+                <button id="option1" class="optionButton">Select</button>
+            </div>
+            <div class="option">
+                <label>Option 2: Showcase Attributes (Position coordinates)</label>
+                <button id="option2" class="optionButton">Select</button>
+            </div>
+            <div class="option">
+                <label>Option 3: Highlight Safe Navigation path</label>
+                <button id="option3" class="optionButton">Select</button>
+            </div>
+            <div class="option">
+                <label>Option 4: Display Safe Landing Regions</label>
+                <button id="option4" class="optionButton">Select</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Crater & Boulder Detection</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
